@@ -1,1 +1,1 @@
-clear && gcc main.c -o main -lm && ./main && echo ''
+clear && gcc main.c arrays.c generalfunctions.c -o main -lm && ./main && echo ''
