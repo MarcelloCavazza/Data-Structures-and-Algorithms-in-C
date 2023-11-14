@@ -6,7 +6,7 @@ int main(){
 
     while (userChoice == -1)
     {
-        AskForIntValueToDefine("Which Data Structure do you want to see?\n0-Exit\n1-Arrays\n", &userChoice);
+        AskForIntValueToDefine("Which Data Structure do you want to see?\n0-Exit\n1-Arrays\n2-Linked Lists\n", &userChoice);
         // printf("\n");
         switch (userChoice)
         {
@@ -15,7 +15,9 @@ int main(){
             case 1:
                 arrays();
             break;
-            
+            case 2:
+                linkedLists();
+            break;
             default:
                 userChoice = -1;
             break;

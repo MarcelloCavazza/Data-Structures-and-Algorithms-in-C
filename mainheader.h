@@ -3,5 +3,6 @@
 
 void AskForIntValueToDefine(char *label, int *variable);
 void arrays();
+void linkedLists();
 
 #endif
